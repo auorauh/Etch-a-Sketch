@@ -12,7 +12,7 @@ header {
    text-shadow: 2px 2px black;
 }
 .container {
-   padding: 4em;
+   padding: 3em;
    display: flex;
    justify-content: center;
    gap: 1em;
@@ -29,18 +29,18 @@ button {
 }
 .gridS {
    display: grid;
-   grid-template-rows: repeat(4, 5em);
-   grid-template-columns: repeat(4, 5em);
+   grid-template-rows: repeat(6, 4em);
+   grid-template-columns: repeat(6, 4em);
 }
 .gridM {
    display: grid;
-   grid-template-rows: repeat(6, 5em);
-   grid-template-columns: repeat(6, 5em);
+   grid-template-rows: repeat(8, 4em);
+   grid-template-columns: repeat(8, 4em);
 }
 .gridL {
    display: grid;
-   grid-template-rows: repeat(8, 5em);
-   grid-template-columns: repeat(8, 5em);
+   grid-template-rows: repeat(10, 4em);
+   grid-template-columns: repeat(10, 4em);
 }
 .pixel {
    background: white;
